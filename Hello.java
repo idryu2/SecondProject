@@ -4,8 +4,10 @@ public class Hello{
 		System.out.println("Hello world");
 		System.out.println("Hello git");
 		
+		System.out.println("First");
+
 		System.out.println("2002year btikeeper");
-		System.out.println("That's Dvcs");
+		
 		}
 
 	}
