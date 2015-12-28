@@ -4,7 +4,7 @@ public class Hello{
 		System.out.println("hello java")
 		System.out.println("hello js")
 		System.out.println("hello jsp")
-		
+		System.out.println("Hello faker")		
 		}
 
 	}
