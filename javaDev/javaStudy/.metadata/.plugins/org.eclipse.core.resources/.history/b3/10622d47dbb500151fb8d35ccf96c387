@@ -1,0 +1,20 @@
+package 연습장;
+import java.awt.Robot;
+public class sist0108{
+	  public static void Set_TimerOn(int nTimer)  throws Exception  // nTimer - 단위 : 초
+	  {
+	        int nDelayTime;
+	        nDelayTime = nTimer * 1000; // 밀리초 단위에 맞도록 *1000을 해준다.
+	        
+	        System.out.println(nTimer);
+
+	       Robot tRobot = new Robot();
+	       tRobot.delay(nDelayTime);   // delay() 함수를 이용하여 nDelayTime 밀리초 동안 프로세스를 sleep 상태로 만든다.
+	  		}
+	  
+	public static void main(String[] args){
+	Set_Timer
+		
+ 
+	}
+}

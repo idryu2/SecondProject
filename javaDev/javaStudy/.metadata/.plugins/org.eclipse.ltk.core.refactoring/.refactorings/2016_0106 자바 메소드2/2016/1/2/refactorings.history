@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;메소드1&apos; to &apos;메소드숫자야구게임&apos;&#x0D;&#x0A;- Original project: &apos;2016_0106 자바 메소드2&apos;&#x0D;&#x0A;- Original element: &apos;메소드1&apos;&#x0D;&#x0A;- Renamed element: &apos;메소드숫자야구게임&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;메소드1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{메소드1.java[메소드1" matchStrategy="1" name="메소드숫자야구게임" qualified="false" references="true" similarDeclarations="false" stamp="1452059071236" textual="false" version="1.0"/>
+</session>

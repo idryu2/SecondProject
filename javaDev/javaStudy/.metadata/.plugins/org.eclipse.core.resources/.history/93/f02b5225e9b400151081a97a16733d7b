@@ -1,0 +1,13 @@
+package 연습장;
+
+import javax.swing.ImageIcon;
+
+public class icon {
+
+	public static void main(String[] args) {
+		ImageIcon image = new ImageIcon("C:\\Users\\aaa\\Desktop\\정현\\board.jpg");
+		System.out.println(image);
+
+	}
+
+}

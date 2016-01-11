@@ -1,0 +1,30 @@
+/*
+ * substring == 문자를 분리할때 사용하는 기능
+ * 
+ * 		substring(int startIndex)
+ * 		substring(3) 3부터 쭉가져옴
+ * 		substring(int startIndex, endIndex)
+ * 		substring(3,7) 3~7-1번까지 가져옴 endIndex-1
+ */
+import java.io.*;
+public class 문자열4 {
+
+	public static void main(String[] args) {
+/*
+		String str="0123456789";
+		String res1 = str.substring(3);
+		System.out.println(res1);
+		
+		String res2 = str.substring(3,7);
+		System.out.println(res2);
+*/	
+		File dir = new File("C:\\javaDev\\javaStudy\\2016_0105자바메소드\\src");
+		File[] filesee = dir.listFiles();
+		for(int i=0;i<filesee.length;i++){
+//			System.out.println(filesee[i].getName());
+			String name = filesee[i].getName();
+			String ext = name.substring(name.listIndexOf('.')+1)
+		}
+	}
+
+}

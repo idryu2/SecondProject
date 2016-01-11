@@ -1,0 +1,13 @@
+import org.jsoup.Jsoup;
+
+import com.sun.xml.internal.txw2.Document;
+
+public class 기타문자열 {
+
+	public static void main(String[] args)throws Exception{
+		org.jsoup.nodes.Document doc = Jsoup.connect("http://movie.naver.com/movie/sdb/rank/rmovie.nhn").get();
+		System.out.println(doc);
+	
+	}
+
+}

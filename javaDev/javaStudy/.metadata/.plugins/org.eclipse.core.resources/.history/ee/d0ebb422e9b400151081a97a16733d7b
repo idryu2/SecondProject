@@ -1,0 +1,13 @@
+package ø¨Ω¿¿Â;
+
+import javax.swing.ImageIcon;
+
+public class icon {
+
+	public static void main(String[] args) {
+		ImageIcon image = new ImageIcon("board.jpg");
+		System.out.println(image);
+
+	}
+
+}

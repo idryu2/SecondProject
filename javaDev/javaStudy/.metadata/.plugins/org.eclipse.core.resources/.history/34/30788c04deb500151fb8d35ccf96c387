@@ -1,0 +1,15 @@
+/*
+ * split 메소드
+ * 
+ * 
+ */
+public class 문자열2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String data = "admin|1234|남자|대기실";
+		String[] res = data.split("|");
+		System.out.println(res);
+	}
+
+}

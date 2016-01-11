@@ -1,0 +1,57 @@
+/*
+ * 난수발생 ==5
+ * int[] getRand(int s)
+ * 정렬
+ * int[] sort(int[])
+ * 
+ */
+public class 메소드3 {
+	static int[] getRand(int num){
+	int[] rand = new int[num];
+	for(int i=0; i<num; i++){
+		rand[i] = (int)(Math.random()*100)+1;
+	}
+	return rand;
+	}
+	//정렬
+	
+	
+		static int[] sort(int[] rand){
+		for(int i=0;i<rand.length-1;i++){
+			for(int k=i+1; k<rand.length; k++){
+				
+				if(rand[i]>rand[k]){
+			
+				int temp= rand[i];
+				rand[i] = rand[k];
+				rand[k]=temp;
+				}
+				else {
+					if(rand[i]<rand[k]){
+						int temp = rand[i];
+						rand[i]=rand[k];
+						rand[k]=temp;
+					}
+				}
+				}
+			
+			}
+		
+		return rand;
+	}
+	public static void main(String[] args) {
+		int[] rand = getRand(10);
+		int[] rand2 = sort(rand);
+		System.out.println("정렬전");
+		for(int i=0; i<rand.length; i++){
+			System.out.print(rand[i]+" ");
+		}
+			System.out.println();
+			System.out.println("정렬후");
+			for(int i=0; i<rand2.length; i++){
+				System.out.print(rand2[i]+" ");
+			}
+	}
+
+
+}

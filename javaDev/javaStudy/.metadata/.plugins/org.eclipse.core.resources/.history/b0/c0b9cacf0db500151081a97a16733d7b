@@ -1,0 +1,56 @@
+/*
+ * 문자열 = 문자여러개 묶어서 사용
+ * ====================
+ * char[] = 조작해서 만든 클래스  :String
+ * 1 사용형식
+ * 		String 변수명 = "값";
+ * 		====== ====
+ * 		클래스		객체	객체변수값 = 객체:사용자정의 데이터형에대한 변수명
+ * 		String  변수명    = new String("값");
+ * 					  ==== 
+ * 				  	   새로운 메모리 생성 = 저장
+ * 					  malloc()= free()
+ * 					   new == system.gc()
+ * 		String str = new String("java");
+ * 		자바 메모리
+ * 		================================
+ * 			method 영역 == 전역변수
+ * 		================================
+ * 			stack == 메모리에의해 저장되는공간(지역변수와 매개변수)
+ * 		================================
+ * 			heap == 개발자가 저장하는 공간 (new를 이용해 할당)
+ * 		================================
+ * 		참조변수:배열, String;
+ * 		String str = new String("java");
+ * 			stack		heap
+ * 		==========	===========
+ * 			(str)100		  (java)100
+ * 		==========	===========
+
+ *		String : 데이터형, 기능
+ *		1. equals  : 문자열비교
+ *		2. length	:문자의갯수
+ *		3. substring	:문자분해
+ *		4. split	:문자분해
+ *		5. startswith,endswith	: 자동완성
+ *		6. trim	:좌우공백제거
+ *		7. indexOf, lastIndexOf	:원하는위치에 문자위치
+ *		8. replace	:문자변경
+ *		9. valueOf	:데이터형을 문자열로 바꿔줌
+ *		10. chatAt(0) = 해당문자열에서 문자 하나를 가져옴
+ *
+ */
+
+
+public class 문자열 {
+	public static void main(String[] args) {
+	String str = "Hello";
+	String str1 = "Hello";
+	if(str==str1){
+		System.out.println("str과 str1은 같다");
+	}
+	else 
+		System.out.println("같지않다");
+		
+	}
+}

@@ -1,0 +1,18 @@
+package 연습장;
+import java.awt.*;
+import java.awt.image.ImageObserver;
+public class Graphic {
+	
+	public void paint(Graphics g){
+		g.drawString("이미지그리기", 100, 80);
+		Image img = Toolkit.getDefaultToolkit().getImage("C:\\Users\\aaa\\Desktop\\정현\\20151118170424.jpg");
+		
+		g.drawImage(img,110,100,(ImageObserver) this);
+	}
+	public static void main(String[] args) {
+	
+	
+		
+	}
+
+}

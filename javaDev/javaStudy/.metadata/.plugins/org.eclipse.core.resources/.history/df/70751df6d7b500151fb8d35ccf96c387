@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+/*
+ * 1~100까지 난수발생
+ * 난수를 맞추는 프로그램
+ * 
+ */
+
+public class 메소드5 {
+
+	static int getRand(){
+		return (int)(Math.random()*100)+1;
+	}
+	static int input(){
+		Scanner scan = new Scanner(System.in);
+		System.out.print("1~100까지의 사이의 정수입력: ");
+		return scan.nextInt();
+	}
+	static boolean hint(int com, int user){
+	boolean bCheck =false;
+	if(com>user){
+	System.out.println("입력값보다 큰 값입력...");	
+	}
+	else if(com<user){
+		System.out.println("입력값보다 작은값 입력...");
+	}
+	else{
+		bCheck = true;
+	System.out.println("맞혔습니다.");
+	}
+	return bCheck;
+	
+	}
+	static void process(){
+		int com= getRand();
+		while(true){
+			int user = input();
+			boolean bCheck = hint(com,user);
+			if(bCheck==true){
+				System.out.println("게임을 다시할까요?yes{1}no{2}");
+				Scanner scan1=new Scanner(System.in);
+				int num = scan1.nextInt();
+				if(num==1){
+					process();
+				}
+				else{
+					System.exit(0);
+					
+				}
+				System.out.println("GameO ver");
+				break;
+			}
+		}
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		process();
+
+
+	}
+}

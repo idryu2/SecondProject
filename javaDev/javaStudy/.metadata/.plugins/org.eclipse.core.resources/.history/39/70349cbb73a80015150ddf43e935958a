@@ -1,0 +1,21 @@
+/*
+ * 
+ * 프로그램 구현방법
+ * 	1. 데이터 저장  == 변수
+ * 	2. 데이터 연산처리 == 연산자
+ * 	3. 처리된 결과 출력 == System.out.println();
+ * 		  ==> System.out.println();
+ * 		==> System.out.print()
+ * 		==> System.out.printf(); == 서식을 가지고있는 출력
+ * 			System.out.printf("%5d %d %d" ,10,20,30);	
+ * 			System.out.printf();
+ * 연산자
+ */
+
+public class 비트이동연산자 {
+
+	public static void main(String[] args){
+		
+				System.out.printf("%5d%5d",200,1000);
+	}
+}

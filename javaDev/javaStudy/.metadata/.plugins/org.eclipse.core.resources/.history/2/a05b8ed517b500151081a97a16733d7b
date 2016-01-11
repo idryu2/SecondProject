@@ -1,0 +1,18 @@
+/*
+ * substring == 문자를 분리할때 사용하는 기능
+ * 
+ * 		substring(int startIndex)
+ * 		substring(3) 3부터 쭉가져옴
+ * 		substring(int startIndex, endIndex)
+ * 		substring(3,7) 3~7-1번까지 가져옴 endIndex-1
+ */
+public class 문자열4 {
+
+	public static void main(String[] args) {
+
+		String str="0123456789";
+		String res1 = str.substring(3);
+		System.out.println(res1);
+	}
+
+}

@@ -1,0 +1,18 @@
+
+/*
+*
+*/
+public class 관계연산자2 {
+
+	public static void main(String[] args) {
+	
+		int a = 10;
+		int b = 9;
+		boolean rst  = (a<b);
+		System.out.println(rst);
+		boolean rest = (a>b);
+		System.out.println(rest);
+
+	}
+
+}

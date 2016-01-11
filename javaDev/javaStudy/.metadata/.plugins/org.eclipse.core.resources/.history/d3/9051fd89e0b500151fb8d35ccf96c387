@@ -1,0 +1,15 @@
+/*
+ * replace, replaceAll == &lt;(<) &gt;(>)
+ * 
+ */
+public class ¹®ÀÚ¿­4 {
+
+	public static void main(String[] args) {
+	String data = "&lt;html&gt;";
+	data = data.replaceAll("&lt;", "mat");
+			data = data.replaceAll("&gt;", "anguege");
+System.out.println(data);
+
+	}
+
+}

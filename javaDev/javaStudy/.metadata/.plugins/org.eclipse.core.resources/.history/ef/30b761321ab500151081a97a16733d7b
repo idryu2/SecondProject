@@ -1,0 +1,9 @@
+//trim 좌우 공백제거
+public class 문자열6 {
+
+	public static void main(String[] args) {
+		String str = new String("Hello java");
+		str.trim();
+	}
+
+}
